@@ -1,4 +1,4 @@
-# Team-goSTOPS
+![Screenshot 2023-09-07 at 10 29 01 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/08f81421-3bfe-4200-b4e2-fb57e6eab93a)# Team-goSTOPS
 >
 Hosted Link
 >
@@ -8,27 +8,43 @@ Personal UI
 >
 https://tiwariabhishek0599.github.io/Team-goSTOPS/offsite.html
 >
->
->![Screenshot 2023-09-07 at 10 24 37 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/051cf342-b367-4245-83f8-292c6209d631)
->
-![Screenshot 2023-09-07 at 10 26 57 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/e1096631-0587-4296-b7d6-fc51e79a2432)
-![Screenshot 2023-09-07 at 10 27 10 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/5514bfe3-45d9-4a7a-9b14-306c16d434f5)
-![Screenshot 2023-09-07 at 10 27 22 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/8b06d53d-99f6-4060-9bc8-2dd03238fd7d)
-![Screenshot 2023-09-07 at 10 27 42 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/d4a6da94-4f09-41ba-8451-5a4744d042dd)
-![Screenshot 2023-09-07 at 10 27 50 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/7046ac0e-38be-4f36-94af-1e5fd805e715)
-![Screenshot 2023-09-07 at 10 28 34 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/441511f2-5e01-4b89-86bc-66eb6dc6fa96)
-![Screenshot 2023-09-07 at 10 28 48 PM]
-(https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/01c6c907-477f-4df9-8896-afaa2ee8038e)
+>![Screenshot 2023-09-07 at 10 24 37 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/32e38da2-be4a-4c8e-ac4b-08e5f81a1373)
 
-![Screenshot 2023-09-07 at 10 29 01 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/d3d96ed8-a984-4c0a-9e9c-316016d9ed3f)
+![Screenshot 2023-09-07 at 10 26 57 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/a2ff8d9a-a49c-402f-b905-e96ae3d9d49e)
 
-![Screenshot 2023-09-07 at 10 29 09 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/1de83bc7-816b-48ab-9941-0685714cfe5d)
+![Screenshot 2023-09-07 at 10 27 10 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/805d0544-8c80-4591-a933-69800fe680e9)
 
-![Screenshot 2023-09-07 at 10 29 39 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/79ef44cf-586d-4ba0-a83b-9016a08ab2dc)
+![Screenshot 2023-09-07 at 10 27 22 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/f855fd55-45d6-451d-8edb-a78d84993c90)
+![Screenshot 2023-09-07 at 10 27 42 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/d05e1629-f218-4762-a86f-cf52c6b84494)
+![Screenshot 2023-09-07 at 10 27 50 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/76ac1519-f641-4664-8695-c51eeabcb336)
+![Screenshot 2023-09-07 at 10 28 34 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/2259cc33-e683-47e3-b4cd-9473c47bcd62)
 
-![Screenshot 2023-09-07 at 10 29 30 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/8924eab3-dca0-45ea-a2f0-79d3d20c5083)
+![Screenshot 2023-09-07 at 10 28 48 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/23626e43-689f-4d50-9db3-3860ce5e578e)
 
-![Screenshot 2023-09-07 at 10 30 07 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/7f31e553-06c1-4631-953a-27610100fa8b)
+![Screenshot 2023-09-07 at 10 29 01 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/5aa4c4fb-926e-47a8-8a62-243f4727ff01)
+![Screenshot 2023-09-07 at 10 29 09 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/2723bb66-4a48-46b7-95ba-5b76817add66)
+
+![Screenshot 2023-09-07 at 10 29 30 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/9be61d1c-8fbe-4ca4-92d7-57efc56f188e)
+
+![Screenshot 2023-09-07 at 10 29 39 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/2382c3b3-5305-42ba-8c4e-db875fae5425)
+
+![Screenshot 2023-09-07 at 10 29 56 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/91e441ad-444d-4b08-ba57-181c1397569d)
+
+![Screenshot 2023-09-07 at 10 30 07 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/482f0950-80c9-4059-acd2-ecfe36881fa1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
