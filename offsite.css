@@ -1,0 +1,846 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', sans-serif;
+}
+
+header{
+    position: relative;
+}
+
+nav{
+    height: 66px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    z-index: 100;
+    align-items: center;
+    top:0;
+    background-color: #FFCC00;
+    position: fixed;
+    box-shadow: 0px 1px 7px rgb(0 0 0 / 20%);
+}
+.abh_nav_Image{
+    width: 210px;
+    height: 100%;
+    background-color: white;
+    
+}
+.abh_nav_Image a img{
+    padding-left: 5px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+.abh_nav_content{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.abh_nav_mid_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+    list-style: none;
+}
+.abh_nav_mid_content li{
+    margin-left:6px;
+    margin-right:6px;
+}
+.abh_nav_mid_content li a{
+    text-decoration: none;
+    font-size: .875rem;
+    font-weight: bold;
+    margin: 1rem;
+    color: black;
+    text-transform: uppercase;
+}
+.abh_nav_mid_content li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.abh_nav-bt{
+    display: flex;
+    align-items: center;
+}
+.abh_bt_download{
+    background-color: #f36;
+    height: 2.5rem;
+    width:10rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.abh_bt_download:hover{
+    color: #000;
+    cursor: pointer;
+}
+.abh_bt_login:hover{
+    color: #000;
+    cursor: pointer;
+}
+.abh_bt_login{
+    margin-left: 15px;
+    width: 100px;
+    height: 2.5rem;
+    border-radius: 2.625rem;
+    background-color: #f36;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}  */
+/* main Portion */
+main{
+    display: block;
+}
+/* Banner Portion */
+.abh_banner{
+    display: block;
+    height: 570px;
+    margin-top: 66px;
+    width: 100vw;
+    display: flex;
+    z-index: 2;
+}
+.abh_background_image{
+    position: absolute;
+    height: 570px;
+    width: 100%;
+    background-image:linear-gradient(to right,rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url('https://gostops.com/static/src/img/xnewoff.jpg.pagespeed.ic.6TDLgL76Xx.webp');
+    background-size: cover;
+}
+.abh_background_image img{
+    height: 100%;
+    width: 100%;
+}
+.abh_banner_content{
+    top: 33%;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 4rem;
+}
+.abh_banner_content h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+.abh_banner_content p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+}
+.abh_banner_content .abh_button a{
+    font-weight: 500;
+    font-size: 15px;
+    width: 178px;
+    height: 50px;
+    background: #FF3366;
+    color: white;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* Navbar-2 */
+.abh_nav-2{
+    background: #f6f6f6;
+    box-shadow: 0px 1px 0px #00000019;
+    width: 100vw;
+    margin-top: 15px;
+    height: 3.5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    position: sticky;
+    top: 4.1rem;
+    z-index: 15;
+}
+.abh_nav-2 ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+.abh_nav-2 ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: .9rem;
+    font-weight: 600;
+}
+/* Plan Portion */
+.abh_plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    padding-left: 11rem;
+    padding-right: 11rem;
+    border-bottom: 3px dashed black;
+}
+.abh_plan .abh_heading{
+    text-transform: uppercase;
+    color: #6667AF;
+    margin-bottom: 3rem;
+}
+.abh_plan p{
+    font-family: avenir-demi-bold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #2A2A2A;
+}
+/* Location */
+.abh_location,.abh_activities{
+    width: 100vw;
+    padding-top: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3px dashed black;
+    z-index: 2;
+}
+.abh_heading{
+    color: #6667AF;
+    margin-bottom: 45px;
+    text-align: center;
+}
+.abh_location-image{
+    width: 100vw;;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+}
+.abh_image-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80vw;
+    justify-content: center;
+}
+.abh_location .abh_particular_image{
+    height: 310px;
+    width: 270px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    margin-left:5px;
+    margin-right:5px;
+    overflow: hidden;
+    position: relative;
+}
+.abh_location-left-button{
+    width: 10vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.abh_left-button{
+    height:70px;
+    width:70px;
+    /* border:1px solid black; */
+    border-radius:50%;
+    display:flex;
+    background-color:#F08AAE;
+    align-items:center;
+    justify-content:center;
+}
+.abh_location-right-button{
+    width: 10vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.abh_right-button{
+    height:70px;
+    width:70px;
+    /* border:1px solid black; */
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:#EC3C64;
+}
+.abh_image_area{
+    height: 100%;
+    width: 100%;
+}
+.abh_location .abh_particular_image a img{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.abh_location .abh_button a{
+    font-weight: 500;
+    font-size: 15px;
+    width: 150px;
+    height: 45px;
+    background: white;
+    color: #FF3366;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #FF3366;
+}
+.abh_particular_image .abh_name h2{
+    bottom: 0%;
+    height: 30%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    position: absolute;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.6);
+    
+}
+/* Activities Portion */
+.abh_activities_images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    padding-bottom: 4.5rem;
+    align-items: center;
+    border-radius: 30px;
+}
+.abh_activities_images .abh_particular_image{
+    height: 270px;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.abh_activities_images .abh_image_area{
+    height: 270px;
+    width: 250px;
+    overflow: hidden; 
+}
+.abh_activities_images .abh_image_area img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.abh_activities_images .abh_particular_image .abh_name h2{
+    position: absolute;
+    border-radius: 30px;
+    background: rgba(0,0,0,0.5);
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    text-transform: capitalize;
+    overflow: hidden;
+}
+.abh_particular_image .abh_hover_portion:hover{
+    transition: .3s ease;
+    transform: scale(1.2);
+}
+.abh_pre{
+    position: absolute;
+    transition: opacity;
+    display: block;
+}
+.abh_arc{
+    visibility: hidden;
+    position: absolute;
+    font-size: 10px;
+}
+.abh_name:hover .abh_pre{
+    opacity: 0;
+    display: none;
+}
+.abh_name:hover .abh_arc{
+    visibility: visible;
+}
+
+
+/* Included Portion */
+.abh_included{
+    display: block;
+    padding-top: 4.5rem;
+    border-bottom: 3px dashed black;
+    font-family: avenir-demi-bold;
+}
+.abh_items{
+    display: flex;
+    width: 1087.22px;
+    /* margin-right: 10rem;
+    margin-left: 10rem; */
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+.abh_particular_item{
+    display: flex;
+    width: 21vw;
+    flex-direction: column;
+    align-items: center;
+}
+.abh_items-heading{
+    margin: 20px 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+.abh_include-image-portion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.abh_included .abh_particular_images{
+    width: 300px;
+    height:300px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+}
+.abh_particular_images img{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.abh_included .abh_particular_images .abh_name{
+    width: 300px;
+}
+.abh_included .abh_particular_images .abh_name p{
+    bottom: 0;
+    height: 30%;
+    width: 100%;
+    color: white;
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* overflow: hidden; */
+}
+/* Why us */
+.abh_why-us{    
+    padding-top: 6rem;
+    border-bottom:3px dashed black;
+}
+.abh_container{
+    display:flex;
+    justify-content:space-around;
+    margin-left:5rem;
+    margin-right:5rem;
+    margin-bottom:9rem;
+}
+.abh_content ul{
+    list-style:none;
+}
+.abh_content ul li a{
+    text-decoration:none;
+    line-height:2.5rem;
+    color:black;
+}
+.abh_content ul li a h3{
+    font-size:20px;
+    color:#A3A3A3;
+}
+.abh_image_container{
+    width: 41vw;
+    margin-top: 1.5rem;
+    overflow: scroll;
+    display: flex;
+    justify-content: space-between;
+}
+
+.abh_image-portion{
+    width:100%;
+    /* height: 330px; */
+    margin-right: 20px;
+    /* margin-top: 1.5rem; */
+}
+.abh_image-portion .abh_image{
+    height: 330px;
+}
+ .abh_image-portion .abh_image img{
+    height: 100%;
+    width: 41vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 2.625rem;
+ }   
+.abh_image-portion .abh_image-content{
+    font-size:21px;
+    font-weight:light;
+    margin-top:1rem;
+}
+/* Enquiry */
+.abh_enquiry{
+    width:100vw;
+    border-bottom: 3px dashed black;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.abh_enquiry .abh_heading{
+    padding-top:3.5rem;
+    font-size:20px;
+    color:black;
+}
+.abh_enquiry .abh_button a{
+    font-weight: 500;
+    font-size: 15px;
+    width: 178px;
+    height: 50px;
+    background: #FF3366;
+    color: white;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom:3.5rem;
+}
+/* Faq */
+.abh_faq_portion{
+    width:100vw;
+    /* color: #000; */
+    /* border-bottom:3px dashed black; */
+}
+.abh_faq_portion .abh_heading{
+    padding-top:3rem;
+}
+.abh_fa-container{
+    margin: 2rem 9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.abh_fa-container h3{
+    font-size: 20px;
+    font-weight:600;
+}
+.abh_fa-sub_container{
+    margin-left: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    line-height: 4.3rem;
+    margin-bottom:1rem;
+}
+.abh_particular_content_container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.abh_fa-sub_container .abh_particular_content_container .abh_fa-content a{
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 500;
+    color: #000;
+}
+.abh_particular_content_container .abh_icon{
+    height: 30px;
+    width: 30px;
+    border: 2.5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+/* Suscription */
+.abh_ad-contact{
+    background-color: #33CCCC;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.abh_ad-sub-container{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.abh_sub-1{
+    color: white;
+    font-weight: bold;
+}
+
+.abh_sub-1 h1{
+    margin-bottom: 20px;
+}
+
+.abh_sub-2-1{
+    color: #000;
+    padding:15px 20px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    margin: 0 10px;
+}
+
+.abh_sub-2-2{
+    width: 200px;
+    color: #000;
+    padding:15px 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 0 10px;
+}
+
+input[type="text"]::-webkit-input-placeholder{
+    color: #000;
+    font-size: 16px;
+}
+
+.abh_ad-sub-bt{
+    line-height: 1.15;
+    padding: 15px 25px;
+    border-radius: 2.625rem;
+    background-color: #f36;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.abh_ad-sub-bt:hover{
+    /* background-color: #DB821E; */
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+}
+/* Footer */
+.abh_ad-main{
+    background-color: #6666cc;
+    height: 550px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abh_ad-main-upper{
+    margin-top: 65px;
+    display: flex;
+    width: 100vw;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    border-bottom: .5px solid rgb(127,126,247);
+    padding-bottom: 3rem;
+}
+
+.abh_ad-main-upper ul li a img{
+    height: 30px;
+}
+
+.abh_ad-main-upper ul li {
+    list-style: none;
+    padding-right: 18px;
+}
+
+.abh_ad-f{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 50px;
+    margin-right: 50px;
+}
+
+.abh_ad-f,.abh_ad-s, .abh_ad-t ,.abh_ad-f h4{
+    color: #ff9933;
+}
+
+.abh_f-ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.abh_ad-s{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.abh_s-ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.abh_s-ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.abh_s-ul li{
+    margin: 8px 0;
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight:400;
+}
+
+.abh_ad-s h4{
+    margin-bottom: 10px;
+}
+
+.abh_ad-l{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.abh_l-ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.abh_l-ul li p{
+    list-style: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.abh_l-ul li{
+    display: flex;
+    align-items: flex-start;
+    margin: 14px 0;
+
+}
+
+.abh_l-ul li p{
+    margin-left: 20px;
+}
+
+.abh_ad-upper-s{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    /* margin-left: 150px; */
+}
+
+.abh_ad-l h4{
+    color: #ff9933;
+    margin-bottom: 10px;
+}
+
+.abh_ad-s{
+    margin-left: 50px;
+    /* margin-left: 30px; */
+}
+
+.abh_ad-l{
+    margin-left:50px ;
+    /* margin-left: 30px; */
+}
+
+.abh_ad-lower{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -558px;
+    margin-top: 50px;
+}
+
+.abh_ad-lower p{
+    color: white;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.abh_ad-lower i{
+    font-size: 13px;
+    margin-top: 3.5px;
+}
+/* whatsapp icon */
+.abh_ad-w-icon{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 50px;
+    bottom: 70px;
+    background-color: #5AC247;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+    cursor: pointer;
+    border-radius: 25px;
+    z-index:50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abh_ad-w-icon img{
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+    
+}

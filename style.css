@@ -1,0 +1,826 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'avenir-demi-bold', sans-serif;
+}
+header{
+    position: relative;
+    top: 0;
+}
+
+nav{
+    height: 66px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    z-index: 100;
+    align-items: center;
+    top:0;
+    background-color: #FFCC00;
+    position: fixed;
+    box-shadow: 0px 1px 7px rgb(0 0 0 / 20%);
+}
+.nav_Image{
+    width: 210px;
+    height: 100%;
+    background-color: white;
+    
+}
+.nav_Image a img{
+    padding-left: 5px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+.nav_content{
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+
+}
+.nav_mid_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    list-style: none;
+}
+/* .nav_mid */
+.nav_mid_content li a{
+    text-decoration: none;
+    font-size: .875rem;
+    font-weight: bold;
+    margin: 1rem;
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav_mid_content li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-bt{
+    display: flex;
+    align-items: center;
+    margin-left: -30px;
+    width: 29%;
+}
+
+.bt_download{
+    background-color: #f36;
+    height: 2.5rem;
+    width:10rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.bt_download:hover{
+    color: #000;
+    cursor: pointer;
+}
+
+.bt_login:hover{
+    color: #000;
+    cursor: pointer;
+}
+
+.bt_login{
+    margin-left: 10px;
+    width: 90px;
+    height: 2.5rem;
+    border-radius: 2.625rem;
+    background-color: #f36;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+main{
+    display: block;
+}
+
+/* BANNER */
+.banner{
+    width: 100%;
+    position: relative;
+    height: 580px;
+    overflow-y: hidden;
+    box-shadow: 0px 1px 7px rgb(0 0 0 / 20%);
+}
+.banner .banner_images{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 100%;
+}
+
+.banner_images::-webkit-scrollbar { 
+    display: none; 
+ }
+
+.particular_banner a img{
+    height: 100%;
+    width: 100vw;
+    object-fit:fill;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.banner .booking{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.booking .upper{
+    width: 45%;
+    height: 4rem;
+    border-radius: 40px 40px 0 0;
+    display: flex;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    border: 1px solid #e5e3e3; 
+}
+.booking .hostel{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFCC00;
+    cursor: pointer;
+}
+.booking .trip{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.hostel h5{
+    font-size: .875rem;
+}
+.upper .trip{
+    font-size: .875rem;
+    color: #666666;
+}
+.booking .lower{
+    width: 100%;
+    height: 6rem;
+    border-radius: 0 40px 0 0;
+    background-color: #f7f7f7;
+    display: flex;
+}
+.lower .lower_hostel{
+    display: flex;
+    width: 35%;
+    height: 6rem;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1.5rem 1rem;
+    line-height: 1.5rem;
+    border-right: .5px solid #e5e3e3;
+    margin: 0;
+    padding-left: 1.6rem;
+    cursor: pointer;
+}
+
+.lower_check-in,.lower_check-out{
+    display: flex;
+    width: 25%;
+    height: 6rem;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1.5rem 1rem;
+    line-height: 1.5rem;
+    border-right: .5px solid #e5e3e3;
+    margin: 0;
+    padding-left: 1.6rem;
+}
+.lower_hostel,.lower_check-in,.lower_check-out p{
+    font-size: small;
+    color: #555555;
+}
+.lower_hostel,.lower_check-in,.lower_check-out .nav{
+    display: flex;
+    justify-content: center;
+}
+.lower_hostel .nav span:hover{
+    cursor: pointer;
+}
+.book{
+    height: 6rem;
+    width: 15%;
+    background-color: #f36;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 40px 0 0;
+    cursor: pointer;
+}
+
+#ad-select{
+    color: #000;
+    font-weight: bold;
+}
+.book a{
+    text-decoration: none;
+    color: #f7f7f7;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* destination */
+
+.destination{
+    color: #fff;
+    width: 100%;
+    margin: auto;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+.destination .destination_image{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.head{
+    color: #f36;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.destination_image .images{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.images .gfg{
+    height: 21.875rem;
+    padding: 0 15px;
+    border-radius: 40px;
+}
+
+.gfg img{
+    width: 250px;
+    border-radius: 50px;
+    height: 100%;
+    margin: 0 5px;
+}
+
+.dest{
+    margin-top: 60px;
+}
+
+.dest .dest-bt{
+    padding: 12px 25px;
+    border: 1px solid #f36;
+    background-color: white;
+    color: #f36;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.gfg {
+    position: relative;
+    overflow: hidden;
+}
+.text-container h4{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 20px;
+    top: 50px;
+    padding: 5px 15px 5px 25px;
+    background-color: #6666cc;
+    cursor: pointer;
+}
+
+.text-container p{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    bottom: 20px;
+    left: 20px;
+    margin-left: 20px;
+    width: 100%;
+    font-size: 14px;
+    
+    text-shadow: #666666;
+    cursor: pointer;
+}
+
+.ad-dest-bt-left{
+    position: absolute;
+    background-color:#FF3366; 
+    border-radius: 100%; 
+    padding: 16px 20px; 
+    border: none;
+    top:155px;
+    left: 14px;
+    z-index: 47;
+    cursor: pointer;
+}
+
+.ad-dest-bt-right, .ad-dest-bt-left i{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ad-dest-bt-right{
+    position: absolute;
+    background-color:#FF3366; 
+    border-radius: 100%; 
+    padding: 16px 20px; 
+    border: none;
+    top: 155px;
+    z-index: 47;
+    right: 14px;
+    cursor: pointer;
+}
+
+
+/* Trips */
+
+.ad-trips{
+    margin-top: 40px;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFCC00;
+}
+
+.ad-trip-head{
+    color: #f36;
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.ad-trip-card{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.ad-trip-cards{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.ad-trip-bt{
+    padding: 12px 25px;
+    border: 1px solid #000;
+    background-color:#FFCC00;
+    color: #000;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    cursor: pointer;
+}
+
+.ad-card-img{
+    height: 14rem;
+    border-radius: 40px;
+    overflow: hidden;
+    object-fit: cover;
+    background-size: cover;
+    width: 250px;
+    position: relative;
+}
+
+.ad-card-text p{
+    position: absolute;
+    left: 17px;
+    bottom: 15px;
+    padding: 3px 16px 1px 10px;
+    font-size: 13px;
+    color: #333;
+    border-radius: 30px;
+    background: white;
+    cursor: pointer;
+}
+
+.ad-card-text span{
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.ad-card-img img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.ad-card-h3{
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.ad-card-h3 p{
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.ad-trip-bt-left{
+    position: absolute;
+    background-color:#FF3366; 
+    border-radius: 100%; 
+    padding: 16px 20px; 
+    border: none;
+    top:120px;
+    left: 32px;
+    z-index: 51;
+    cursor: pointer;
+}
+
+.ad-trip-bt-right, .ad-trip-bt-left i{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ad-trip-bt-right{
+    position: absolute;
+    background-color:#FF3366; 
+    border-radius: 100%; 
+    padding: 16px 20px; 
+    border: none;
+    top: 120px;
+    z-index: 51;
+    right: 32px;
+    cursor: pointer;
+}
+
+/* Media features */
+
+.ad-media{
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFffff;
+}
+
+.ad-media-head{
+    color: #f36;
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.ad-media-card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.ad-media-cards{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.ad-media-bt{
+    padding: 12px 25px;
+    border: 1px solid #f36;
+    background-color:#FFffff;
+    color:#f36;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.ad-media-img{
+    height: 110px;
+    width: 155px;
+    border-radius: 35px;
+    overflow: hidden;
+    border: 1px solid #c1c1c1;
+}
+
+.ad-media-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.ad-media-bt-left{
+    position: absolute;
+    background-color:#FF3366; 
+    border-radius: 100%; 
+    padding: 16px 20px; 
+    border: none;
+    top:30px;
+    left: 32px;
+    z-index: 53;
+    cursor: pointer;
+}
+
+.ad-media-bt-right, .ad-media-bt-left i{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ad-media-bt-right{
+    position: absolute;
+    background-color:#FF3366; 
+    border-radius: 100%; 
+    padding: 16px 20px; 
+    border: none;
+    top: 30px;
+    z-index: 53;
+    right: 32px;
+    cursor: pointer;
+}
+
+/* Subscribe */
+
+.ad-contact{
+    background-color: #33CCCC;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.ad-sub-container{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.sub-1{
+    color: white;
+    font-weight: bold;
+}
+
+.sub-1 h1{
+    margin-bottom: 20px;
+}
+
+.sub-2-1{
+    color: #000;
+    padding:15px 20px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    margin: 0 10px;
+}
+
+.sub-2-2{
+    width: 200px;
+    color: #000;
+    padding:15px 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 0 10px;
+}
+
+input[type="text"]::-webkit-input-placeholder{
+    color: #000;
+    font-size: 16px;
+}
+
+.ad-sub-bt{
+    line-height: 1.15;
+    padding: 15px 25px;
+    border-radius: 2.625rem;
+    background-color: #f36;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ad-sub-bt:hover{
+    background-color: #DB821E;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+}
+
+/* Footer */
+
+.ad-main{
+    background-color: #6666cc;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ad-main-upper{
+    margin-top: 65px;
+    display: flex;
+    width: 88%;
+    /* padding-bottom: -30px; */
+    /* margin-bottom: -70px; */
+}
+
+.ad-main-upper ul li a img{
+    height: 30px;
+}
+
+.ad-main-upper ul li {
+    list-style: none;
+    padding-right: 18px;
+}
+
+.ad-f{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 50px;
+    margin-right: 50px;
+}
+
+.ad-f,.ad-s, .ad-t ,.ad-f h4{
+    color: #ff9933;
+}
+
+.f-ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.ad-s{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.s-ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.s-ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.s-ul li{
+    margin: 8px 0;
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight:400;
+}
+
+.ad-s h4{
+    margin-bottom: 10px;
+}
+
+.ad-l{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.l-ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.l-ul li p{
+    list-style: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.l-ul li{
+    display: flex;
+    align-items: flex-start;
+    margin: 14px 0;
+
+}
+
+.l-ul li p{
+    margin-left: 20px;
+}
+
+.ad-upper-s{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.ad-l h4{
+    color: #ff9933;
+    margin-bottom: 10px;
+}
+
+.ad-s{
+    margin-left: 50px;
+}
+
+.ad-l{
+    margin-left:50px ;
+}
+.ad-main-lower{
+    margin-top: 60px;
+    width: 100%;
+    border-top: .5px solid rgb(127,126,247);
+}
+
+.ad-lower{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 85px;
+    margin-top: 30px;
+}
+
+.ad-lower p{
+    color: white;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.ad-lower i{
+    font-size: 13px;
+    margin-top: 3.5px;
+}
+
+.ad-hr{
+    color: #555555;
+    font-size: 1px;
+}
+
+
+/* whatsapp icon */
+
+.ad-w-icon img{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 50px;
+    bottom: 50px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+    cursor: pointer;
+    border-radius: 25px;
+    z-index: 98;
+}
+
+
+
+
+
+
+

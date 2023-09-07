@@ -1,0 +1,1045 @@
+*{
+    margin:0;
+    padding:0;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* ---------navbar------------ */
+header{
+    position: relative;
+    top: 0;
+}
+
+nav{
+    height: 66px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    z-index: 100;
+    align-items: center;
+    top:0;
+    background-color: #FFCC00;
+    position: fixed;
+    box-shadow: 0px 1px 7px rgb(0 0 0 / 20%);
+}
+.nav_Image{
+    width: 210px;
+    height: 100%;
+    background-color: white;
+    
+}
+.nav_Image a img{
+    padding-left: 5px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+.nav_content{
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+
+}
+.nav_mid_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    list-style: none;
+}
+/* .nav_mid */
+.nav_mid_content li a{
+    text-decoration: none;
+    font-size: .875rem;
+    font-weight: bold;
+    margin: 1rem;
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav_mid_content li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-bt{
+    display: flex;
+    align-items: center;
+    margin-left: -30px;
+    width: 29%;
+}
+
+.bt_download{
+    background-color: #f36;
+    height: 2.5rem;
+    width:10rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.bt_download:hover{
+    color: #000;
+    cursor: pointer;
+}
+
+.bt_login:hover{
+    color: #000;
+    cursor: pointer;
+}
+
+.bt_login{
+    margin-left: 10px;
+    width: 90px;
+    height: 2.5rem;
+    border-radius: 2.625rem;
+    background-color: #f36;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+/* <------------------------navbar ends--------------------> */
+
+/* <--------Section-1 css starts Big Picture Kochi---------> */
+
+.div-1{
+    height:470px;
+    width:100%;
+    top:4rem;
+    position:relative;
+    object-fit:cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-1{
+    width:100%;
+    padding-left:15px;
+    padding-right:15px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.div-1 .container-1 {
+    position:absolute ;
+    top: 40%;
+}
+.head-1{
+    text-align: center;
+    font-family: 'avenir-bold',sans-serif;
+    color:white;
+    font-weight: 700;
+    font-size:3.75rem;
+    margin-top:0.95rem;
+}
+.para-1{
+    text-align: center;
+    font-family: 'avenir-bold',sans-serif;
+    color:white;
+    font-weight: 700;
+    font-size:1.35rem;
+    margin-top:.95rem;
+}
+.div-1::before
+{
+    content:'';
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background:rgba(0,0,0,.35)
+}
+.div-1>img
+{
+    height:100%;
+    object-fit:cover;
+    width:100%
+}
+
+
+/* <---------Big Picture Kochi Section-1 Complete-----------> */
+
+/* <----------section-2 Description css starts---------------> */
+
+.div-2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:4.95rem;
+    background-color: white;
+
+}
+.container-2{
+    width:100%;
+    padding-left: 220px;
+    padding-right:220px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.para-2{
+    text-align: center;
+    margin-top: 1.35rem;
+    margin-bottom: 2.95rem;
+    font-family: 'avenir-bold',sans-serif;
+    font-size: 18px;
+    font-weight: 320;
+    line-height: 1.5;
+}
+
+
+/* <----------------Description Section-2 Ends-------------> */
+
+
+/* <-----------Reasons To Visit Section-3 css starts-------> */
+.div-3{
+    padding-bottom:2.69rem;
+    padding-top: 2.69rem;;
+    background-color: #f7f7f7;
+    /* display:block; */
+}
+.heading-3{
+    color: #66c;
+    font-weight: 700;
+    text-align: center;
+    font-family: avenir-bold, sans-serif;
+    margin:0.95rem;
+    font-size: 2.125rem;
+}
+.display-3{
+    position:relative;
+    width:100%;
+    z-index:1;
+    padding-top:0.95rem;
+    padding-bottom:0.95rem;
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.item-3{
+    width: 350px;
+}
+.box-3{
+    position:relative;
+    margin-left: 0.95rem;
+    margin-right: 0.95rem;
+}
+
+.box-3 .img-div-3{
+    overflow:hidden;
+    height:220px;
+    width:100%;
+    border-radius:39px;
+} 
+.text-div-3{
+    background-color: transparent;
+    border-radius: 16px;
+    position: relative;
+    top:-10px;
+    height:150px;
+    overflow:hidden;
+    padding:0.95rem;
+}
+.heading-3-1{
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 0.95rem;
+    margin-top: 0.85rem;
+    font-size: 20px;
+    font-family: 'avenir-bold' , sans-serif;
+}
+.text-div-3 p{
+    text-transform: none;
+    text-decoration: none;
+}
+.para-3{
+    height: 75px;
+    margin:0;
+    font-size: 1.125rem;
+    line-height: 1.6;
+}
+
+/* <-------------------Reasons To Visit Section-3 Is Complete------------------------>*/
+
+/* <--------Best Time To Visist css starts------------> */
+
+.heading-4{
+    color: #66c;
+    font-weight: 700;
+    text-align: center;
+    font-family: avenir-bold, sans-serif;
+    font-size: 40px;
+    height:60px;
+    width:100%;
+    
+}
+.container-3{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pad{
+    padding-top: 2.65rem;
+    padding-bottom: 2.65rem;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: 1.95rem;
+}
+.just{
+    justify-content: center;
+}
+.col{
+    position: relative;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 0.95rem;
+}
+.best-time .img-div-4{
+    object-fit: contain;
+    margin-bottom: 30px;
+}
+.mar-y{
+    margin-top: 1.95rem;
+}
+.bext-time .img-div-4 img{
+    height:100px;
+}
+.img-fluid{
+    max-width: 100%;
+}
+.img{
+    vertical-align: middle;
+    border-style: none;
+}
+.text-4-1{
+    color:#f36;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 1.115rem;
+    font-family: 'avenir-bold' ,sans-serif;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.text-4-2{
+    color:#f36;
+    text-align: center;
+    margin-bottom: 0.45rem;
+    margin-top: 0.45rem;
+    font-size: 1.115rem;
+    font-family: 'avenir-bold' ,sans-serif;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.text-4{
+    padding-left: 4.65rem;
+    padding-right: 3.65rem;
+    padding-bottom: 0.45rem;
+    margin-top: 1.65rem;
+    margin-bottom: 0.95rem;
+    font-size: 1.115rem;
+    font-family: 'avenir-bold' ,sans-serif;
+    font-weight: 300;
+    margin-left: 5.95rem;
+    margin-right: 5.95rem;
+    line-height: 1.5;
+}
+.pad-y{
+    padding-top: 0.45rem;
+    padding-bottom: 0.45rem;
+}
+.text-4-info{
+    color:#66c;
+    font-weight: 300;
+}
+
+
+/* ----------------------------Best Time To Visit Complete----------------------------- */
+
+.heading-5-1{
+    text-align: center;
+    font-size: 2.75rem;
+    color: #66c;
+    margin-bottom: 2.65rem;
+    font-family: 'avenir-demi-bold' , sans-serif;
+
+}
+.container-5{
+    padding-top: 2.65rem;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f7f7f7;
+    padding-bottom: 2.65rem;
+}
+.display-5{
+   display: flex;
+   align-items: center;
+   justify-content:space-around ;    
+   padding-top: 0.95rem;
+   padding-left: 25px;
+   padding-right: 25px;
+   margin-left: 2.65rem;
+   margin-right:2.65rem ;
+}
+.display-5 .box-5{
+    background-color: white;
+    border-radius: 16px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -1px 1px 6px 0px rgb(209,202,209);
+    position:relative;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 1.65rem;
+    margin-right: 1.65rem;
+}
+.heading-5{
+    margin: 25px 0px 0px 0px;
+    color:#66c;
+    font-weight: 700;
+    font-family: 'avenir-demi-bold' , sans-serif;
+    line-height: 1.2;
+    font-size: 28px;
+    margin-left: 0.95rem;
+    text-align: center;
+}
+.position-5{
+    object-fit: contain;
+    position: relative;
+}
+.position-5 .img{
+    position: relative;
+    margin-right: 8px;
+    height: 30px;
+}
+.img-fluid-5{
+    max-width: 100%;
+    height:30px;
+    width:40px;
+}
+img{
+    vertical-align: middle;
+    border-style: none;
+}
+.img-div-5{
+    vertical-align: middle;
+    border-style: none;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.box-5 .para-5{
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 80%;
+}
+.para-5{
+    padding-left: 0.95rem;
+    padding-right: 0.95rem;
+    margin-top: 1.65rem;
+    font-family:'avenir-demi-bold', sans-serif ;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-left: 0.95rem;
+    margin-right: 0.95rem;
+
+}
+
+
+/* ----------------------How to reach is done---------------------------- */
+
+
+/* ---------------------section-6 Hostels Info css starts----------------- */
+
+.container-6{
+    padding-bottom: 2.65rem;
+    padding-bottom: 2.65rem;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row-6{
+    margin-bottom: 1.65rem;
+    margin-top: 0.95rem;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 135px;
+    margin-left: 130px;
+}
+.row-6 .col-6{
+    min-height: 460px;
+}
+.col-6{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.row-6 .img-div-6{
+    height: 350px;
+    width: 100%;
+    border-radius: 16px;
+    background-color: #c566f6;
+    overflow: hidden;
+}
+.display-6-1{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.img-fluid-6{
+    height:35px;
+    padding: 5px 5px;
+    position: relative;
+    
+    max-width: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.para-6-1{
+    font-weight: 500;
+    font-size: 1.125rem;
+    font-family: 'avenir-medium-bold', sans-serif;
+    padding: 5px 30px 5px 0px;
+    width:80% ; 
+    color:#797979;
+    margin-top: 0.25rem;
+}
+.para-6{
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 16px;
+    box-shadow: 4px 3px 10px 0 rgba(173,163,173,.3);
+}
+.heading-6-2{
+    color:#f36;
+    font-weight: 700;
+    margin-bottom: 0.95rem;
+    margin-top: 0.95rem;
+    font-family: 'avenir-demi-bold' ,sans-serif;
+}
+.para-6-2{
+    min-height: 150px;
+    font-weight: 500;
+    font-family: 'avenir-medium', sans-serif;
+    line-height: 1.25; 
+}
+.para-6-3
+{
+    font-weight: 500;
+    font-family: 'avenir-medium', sans-serif;
+}
+.text-info-6{
+    font-weight: 500;
+    font-family: 'avenir-medium', sans-serif;
+    color: #66c;
+}
+.row-6-1{
+    flex-wrap: wrap;
+    margin-left:-15px ;
+    margin-right: -15px;
+}
+.display-6-2{
+    padding-left: 0.95rem;
+    padding-right: 0.95rem;
+    padding-top: 0.95rem;
+    padding-bottom: 0.95rem;
+    margin-top: 0.95rem;
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-around;
+}
+.button-6-1{
+    border-color: #fc0;
+    color:#fff;
+    box-shadow: none;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+    border-radius: 2.625rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #fc0;
+    line-height: 1.5;
+    font-size: .9375rem;
+    font-family: 'avenir-demi-bold' sans-serif;
+    margin: 0;
+    overflow: visible;
+    background: #f36;
+    padding: 12px 26px;
+}
+
+
+/* ---------------------section-6 Hostels Info Ends----------------- */
+
+/* ---------------------section-7 Experience At kochi--------------- */
+
+
+.div-7{
+    background-color: #f7f7f7;
+    padding-bottom: 2.65rem;
+    padding-top: 2.65rem;
+}
+.pad-7{
+    padding-left: 125px;
+}
+.display-7{
+    display:block;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    padding-top: 0.95rem;
+    padding-bottom: 0.95rem;
+    
+}
+.item-7{
+    width: 350px;
+}
+a{
+    text-transform: uppercase;
+    color: #262625;
+}
+.box-7{
+    position: relative;
+    margin-left: 0.95rem;
+}
+.box-7 .img-div-7{
+    overflow: hidden;
+    height: 220px;
+    width: 100%;
+    border-radius: 39px;
+
+}
+.text-div-7{
+    background-color: transparent;
+    border-radius: 16px;
+    position: relative;
+    top: 10px;
+    height:150px;
+    overflow: hidden;
+    padding-left: 0.65rem;
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+.heading-7{
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 0.85rem;
+    font-family: 'avenir-bold' sans-serif;
+    line-height: 1.2;
+}
+.para-7{
+    font-weight: 300;
+    height: 75px;
+    line-height: 1.2;
+    margin-top: .65rem;
+    padding-top: 0.65rem;
+}
+
+
+/* ---------------------section-7 Experience At kochi--------------- */
+
+/* join our community and footer section begins */
+
+/* Subscribe */
+
+.ad-contact{
+    background-color: #33CCCC;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.ad-sub-container{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.sub-1{
+    color: white;
+    font-weight: bold;
+}
+
+.sub-1 h1{
+    margin-bottom: 20px;
+}
+
+.sub-2-1{
+    color: #000;
+    padding:15px 20px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    margin: 0 10px;
+}
+
+.sub-2-2{
+    width: 200px;
+    color: #000;
+    padding:15px 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 0 10px;
+}
+
+input[type="text"]::-webkit-input-placeholder{
+    color: #000;
+    font-size: 16px;
+    /* font-weight: bold; */
+}
+
+.ad-sub-bt{
+    line-height: 1.15;
+    padding: 15px 25px;
+    border-radius: 2.625rem;
+    background-color: #f36;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ad-sub-bt:hover{
+    background-color: #DB821E;
+}
+
+
+/* Footer */
+
+.ad-main{
+    background-color: #6666cc;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ad-main-upper{
+    margin-top: 65px;
+    display: flex;
+    width: 88%;
+    /* padding-bottom: -30px; */
+    /* margin-bottom: -70px; */
+}
+
+.ad-main-upper ul li a img{
+    height: 30px;
+}
+
+.ad-main-upper ul li {
+    list-style: none;
+    padding-right: 18px;
+}
+
+.ad-f{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 50px;
+    margin-right: 50px;
+}
+
+.ad-f,.ad-s, .ad-t ,.ad-f h4{
+    color: #ff9933;
+}
+
+.f-ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.ad-s{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.s-ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.s-ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.s-ul li{
+    margin: 8px 0;
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight:400;
+}
+
+.ad-s h4{
+    margin-bottom: 10px;
+}
+
+.ad-l{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.l-ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.l-ul li p{
+    list-style: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.l-ul li{
+    display: flex;
+    align-items: flex-start;
+    margin: 14px 0;
+
+}
+
+.l-ul li p{
+    margin-left: 20px;
+}
+
+.ad-upper-s{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.ad-l h4{
+    color: #ff9933;
+    margin-bottom: 10px;
+}
+
+.ad-s{
+    margin-left: 50px;
+}
+
+.ad-l{
+    margin-left:50px ;
+}
+.ad-main-lower{
+    margin-top: 60px;
+    width: 100%;
+    border-top: .5px solid rgb(127,126,247);
+}
+
+.ad-lower{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 85px;
+    margin-top: 30px;
+}
+
+.ad-lower p{
+    color: white;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.ad-lower i{
+    font-size: 13px;
+    margin-top: 3.5px;
+}
+
+.ad-hr{
+    color: #555555;
+    font-size: 1px;
+}
+
+
+/* whatsapp icon */
+
+.ad-w-icon img{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 50px;
+    bottom: 50px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+    cursor: pointer;
+    border-radius: 25px;
+    z-index: 98;
+}
+
+
+
+/* ---------------end of footer----------------- */
+
+
+
+/* ----------------------------------------------Media Query--------------------------------------- */
+
+/* section-4 */
+
+@media only screen and (min-width: 768px) {
+    .img-div-4-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2.65rem;
+        
+    }
+    .img-div-4-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 2.65rem;
+    }
+}
+@media only screen and (min-width: 768px){
+.pad-text{
+    padding-left: 0;
+    padding-right: 0;
+}
+}
+@media only screen and (max-width: 768px){
+    .text-4{
+        margin-left: 4.65rem;
+        margin-right: 4.65rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .img-div-4-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+@media only screen and (max-width: 768px){
+    .img-div-4-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+}}
+
+@media only screen and(min-width: 576px){
+    .pad-x {
+        padding-left: 2.65rem;
+}}
+
+@media only screen and (min-width: 768px){
+    .col {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+/* section-4 */
+
+
+/* container-5 */
+
+@media only screen and (max-width: 768px) {
+    .display-5{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left:1.65rem ;
+        margin-right:1.95rem ;
+    }
+
+}
+
+/* container-5 */
+
+/* section-6 */
+
+
+@media only screen and (max-width: 1200px){
+    .container-6 {
+        max-width: 1140px;
+        
+}
+}
+@media only screen and (max-width: 992px){
+    .container-6 {
+        max-width: 960px;
+}}
+@media only screen and (max-width: 768px){
+    .container-6 {
+    max-width: 720px;
+}
+.row-6{
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;
+    overflow: hidden;
+    width: 75%;
+    margin-left: 80px;
+
+
+}}
+   
+@media only screen and (max-width: 576px){
+    .container {
+        max-width: 540px;       
+}
+    .row-6{
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;
+    overflow: hidden;
+    width: 75%;
+    margin-left: 80px;
+    }
+}
+
+
+/* section-6 */
