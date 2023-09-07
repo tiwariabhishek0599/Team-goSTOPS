@@ -9,8 +9,14 @@ Offsite UI:
 https://tiwariabhishek0599.github.io/Team-goSTOPS/offsite.html
 >
 >![Screenshot 2023-09-07 at 10 24 37 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/32e38da2-be4a-4c8e-ac4b-08e5f81a1373)
+>
+>HTML: Navbar(Main) portion is created using 'nav','div','img','ul','li','a' and 'button' tags.
+>CSS: for creating this portion we provide 'flex','align-items','justify-content','padding','margin','background-color','color','height','width','transition','transform' and 'hover' properties.
 
 ![Screenshot 2023-09-07 at 10 26 57 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/a2ff8d9a-a49c-402f-b905-e96ae3d9d49e)
+HTMl: This portion is created using 'div','img' and 'h1' tags.
+CSS: We provide 'height' and 'width' for setting image and 'position' is relative for image.<br>
+For positioning content into image we provide 'position' as absolute.
 
 ![Screenshot 2023-09-07 at 10 27 10 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/805d0544-8c80-4591-a933-69800fe680e9)
 
