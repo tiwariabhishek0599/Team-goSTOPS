@@ -898,7 +898,7 @@ li {
     letter-spacing: 0.02em;
     color: #000000;
 }
-/* @media (min-width: 768px){
+@media (min-width: 768px){
 .text-normal {
     padding-right: 6rem !important;
 }}
@@ -912,7 +912,7 @@ li {
 .col-flex {
     flex: 0 0 33.33333%;
     max-width: 33.33333%;
-}} */
+}}
 .not-to-bold {
     font-family: avenir, sans-serif !important;
     margin-bottom: 0 !important;
@@ -959,6 +959,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: -150px;
 }
 
 
@@ -1013,7 +1014,7 @@ input[type="text"]::-webkit-input-placeholder{
 }
 
 /* Footer */
-
+/* 
 .ad-main{
     background-color: #6666cc;
     height: 500px;
@@ -1027,8 +1028,8 @@ input[type="text"]::-webkit-input-placeholder{
     margin-top: 65px;
     display: flex;
     width: 88%;
-    /* padding-bottom: -30px; */
-    /* margin-bottom: -70px; */
+    padding-bottom: -30px;
+    margin-bottom: -70px; 
 }
 
 .ad-main-upper ul li a img{
@@ -1164,7 +1165,175 @@ input[type="text"]::-webkit-input-placeholder{
 .ad-hr{
     color: #555555;
     font-size: 1px;
+} */
+
+
+/* whatsapp icon */
+
+/* .ad-w-icon img{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 50px;
+    bottom: 50px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+    cursor: pointer;
+    border-radius: 25px;
+    z-index: 98;
 }
+ */
+
+
+.ad-main{
+    background-color: #6666cc;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ad-main-upper{
+    margin-top: 65px;
+    display: flex;
+    width: 88%;
+    padding-bottom: -30px;
+    margin-bottom: -70px;
+}
+
+.ad-main-upper ul li a img{
+    height: 30px;
+}
+
+.ad-main-upper ul li {
+    list-style: none;
+    padding-right: 18px;
+}
+
+.ad-f{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 50px;
+    margin-right: 50px;
+}
+
+.ad-f,.ad-s, .ad-t ,.ad-f h4{
+    color: #ff9933;
+}
+
+.f-ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.ad-s{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.s-ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.s-ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.s-ul li{
+    margin: 8px 0;
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight:400;
+}
+
+.ad-s h4{
+    margin-bottom: 10px;
+}
+
+.ad-l{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.l-ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.l-ul li p{
+    list-style: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.l-ul li{
+    display: flex;
+    align-items: flex-start;
+    margin: 14px 0;
+
+}
+
+.l-ul li p{
+    margin-left: 20px;
+}
+
+.ad-upper-s{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.ad-l h4{
+    color: #ff9933;
+    margin-bottom: 10px;
+}
+
+.ad-s{
+    margin-left: 50px;
+}
+
+.ad-l{
+    margin-left:50px ;
+}
+.ad-main-lower{
+   margin-top: -20px;  
+    width: 100%;
+    background-color:  #66c;
+   
+}
+
+.ad-lower{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 85px;
+   
+}
+
+.ad-lower p{
+    color: white;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.ad-lower i{
+    font-size: 13px;
+    margin-top: 3.5px;
+}
+
+
+
 
 
 /* whatsapp icon */
@@ -1180,7 +1349,3 @@ input[type="text"]::-webkit-input-placeholder{
     border-radius: 25px;
     z-index: 98;
 }
-
-
-
-
