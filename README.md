@@ -1,10 +1,10 @@
-![Screenshot 2023-09-07 at 10 29 01 PM](https://github.com/tiwariabhishek0599/Team-goSTOPS/assets/118967913/08f81421-3bfe-4200-b4e2-fb57e6eab93a)# Team-goSTOPS
+# Team-goSTOPS
 >
-Hosted Link
+Hosted Link:
 >
 https://tiwariabhishek0599.github.io/Team-goSTOPS/
 
-Personal UI
+Offsite UI:
 >
 https://tiwariabhishek0599.github.io/Team-goSTOPS/offsite.html
 >
